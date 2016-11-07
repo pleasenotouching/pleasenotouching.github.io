@@ -1,33 +1,11 @@
 <!DOCTYPE html>
-<!-- Color changing background forked from Amam Dewan, http://codepen.io/AmamDewan/pen/azGpVZ-->
 <head>
 <link rel="stylesheet" type="text/css"
 	href="https://fonts.googleapis.com/css?family=Oswald">
-</head>
-<body>
-  <span class="custom-dropdown">
-    <select>
-      <option>Home</option>
-      <option>About</option>  
-      <option>Lie to Me</option>
-      <option>Mashup</option>
-      <option>Gifs</option>
-    </select>
-</span>
-   <h1> Lie to Me </h1>
-  <center>
-<img src="http://i.imgur.com/sMFsdVT.gif" alt="Blooper Pasta" style="width:304px;height:228px;">
-  </center>
-  
-<p>Adobe Illustrator and Adobe Photoshop were used to generate labels that mimic the aesthetics of high-end food products to simulate a line of classic video game themed consumable goods.  The narrative of a gourmand pasta dinner links the fake products, although each employs a different design language.  The viewer is invited to enjoy both culinary and nostalgic indulgence, while engaging lightheartedly with the implications of bilateral culpability in the increasing mundaneness of intrusive branding immersion. 
-  </p>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-</body>
+
+<!-- Color changing background forked from Amam Dewan, http://codepen.io/AmamDewan/pen/azGpVZ-->
+<!-- Dropdown menu forked from @silverdrop, http://codepen.io/silverdrop/pen/msrcE-->
+
 <style>
 body{
   font-family: 'Oswald', serif;
@@ -44,46 +22,35 @@ body{
   0%{
     background:#91bbff
   }
-
   25%{
     background:#ff91e9
   }
-
   50%{
     background:#b291ff
   }
-  
   75%{
     background:#313207c
-  }
-  
+  }  
   100%{
     background:#91bbff
   }
-  
-
 }
-
 @-moz-keyframes colour{
   0%{
     background:#91bbff
   }
-
   25%{
     background:#ff91e9
   }
-
   50%{
     background:#b291ff
   }
-
   75%{
     background:#313207c
   }
   100%{
     background:#91bbff
   }
-
 }
 h1{
   font-family:arial;
@@ -93,6 +60,7 @@ h1{
   text-align:center;
   text-transform:uppercase;
 }
+	
 /* Custom dropdown */
 .custom-dropdown {
   position: relative;
@@ -100,7 +68,6 @@ h1{
   vertical-align: middle;
   margin: 10px; 
 }
-
 .custom-dropdown select {
   background-color: #db08c2;
   color: #ffffff;
@@ -114,14 +81,12 @@ h1{
   text-overflow: '';
   -webkit-appearance: button; /* hide default arrow in chrome OSX */
 }
-
 .custom-dropdown::before,
 .custom-dropdown::after {
   content: "";
   position: absolute;
   pointer-events: none;
 }
-
 .custom-dropdown::after { /*  Custom dropdown arrow */
   content: "\25BC";
   height: 1em;
@@ -131,7 +96,6 @@ h1{
   top: 50%;
   margin-top: -.5em;
 }
-
 .custom-dropdown::before { /*  Custom dropdown arrow cover */
   width: 2em;
   right: 0;
@@ -139,21 +103,41 @@ h1{
   bottom: 0;
   border-radius: 0 10px 10px 0;
 }
-
 .custom-dropdown select[disabled] {
   color: rgba(0,0,0,.3);
 }
-
 .custom-dropdown select[disabled]::after {
   color: rgba(0,0,0,.1);
 }
-
 .custom-dropdown::before {
   background-color: rgba(0,0,0,.15);
 }
-
 .custom-dropdown::after {
   color: rgba(0,0,0,.4);
 }
 </style>
+</head>
+<body>
+  <span class="custom-dropdown">
+    <select>
+      <option>Home</option>
+      <option>About</option>  
+      <option>Lie to Me</option>
+      <option>Mashup</option>
+      <option>Gifs</option>
+    </select>
+</span>
+   <h1> Lie to Me </h1>
+<center>
+<img src="http://i.imgur.com/sMFsdVT.gif" alt="Blooper Pasta" style="width:50%;height:50%;">
+</center>
+<p>Adobe Illustrator and Adobe Photoshop were used to generate labels that mimic the aesthetics of high-end food products to simulate a line of classic video game themed consumable goods.  The narrative of a gourmand pasta dinner links the fake products, although each employs a different design language.  The viewer is invited to enjoy both culinary and nostalgic indulgence, while engaging lightheartedly with the implications of bilateral culpability in the increasing mundaneness of intrusive branding immersion. 
+</p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</body>
 </html>
