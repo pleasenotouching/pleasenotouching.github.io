@@ -1,3 +1,16 @@
+#menucol {
+	float: right;
+	width: 280px;
+	height: 700px;
+	padding:10px;
+}
+
+#contentcol {
+	float: left;
+	width: 500px;
+	padding:10px;
+}
+
 img.full{
 	height: auto;
 	width:auto;
