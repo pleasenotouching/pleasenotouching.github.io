@@ -1,12 +1,12 @@
 #menucol {
-	float: right;
+	float: left;
 	width: 280px;
 	height: 700px;
 	padding:10px;
 }
 
 #contentcol {
-	float: left;
+	float: right;
 	width: 500px;
 	padding:10px;
 }
