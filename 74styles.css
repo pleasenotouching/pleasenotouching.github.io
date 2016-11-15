@@ -1,0 +1,118 @@
+<style>
+html,body{
+	height:100%;
+}
+img.full{
+	height: auto;
+	width:auto;
+}
+img.fifty{
+	height:50%;
+}
+p{
+  font-family:'Roboto Condensed', sans-serif;
+  font-size:12px;
+  color:white;
+}
+/*unvisited link*/
+a:link{
+  color:white;
+  text-decoration: none;
+}
+/*visited link*/
+a:visited{
+  color:#a5e5ff;
+  text-decoration: none;
+}
+/*mouse over link*/
+a:hover{
+  color:yellow;
+  text-decoration: none;
+}
+/*selected link*/
+a:active{
+  color:hotpink;
+  text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #e20093;
+    height:75%;
+    position:fixed;
+    overflow:auto;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color: #6de9ff;
+    color: white;
+}
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+  color:#ffffff;
+  text-align:justify;
+  margin-left:10px;
+  margin-right:10px;
+  background:#91bbff;
+  -webkit-animation:colour 10s linear infinite;
+  -moz-animation:colour 10s linear infinite;
+}
+@-webkit-keyframes colour{
+  0%{
+    background:#91bbff
+  }
+
+  25%{
+    background:#ff91e9
+  }
+
+  50%{
+    background:#b291ff
+  }
+  
+  75%{
+    background:#313207c
+  }
+  
+  100%{
+    background:#91bbff
+  }
+}
+@-moz-keyframes colour{
+  0%{
+    background:#91bbff
+  }
+
+  25%{
+    background:#ff91e9
+  }
+
+  50%{
+    background:#b291ff
+  }
+
+  75%{
+    background:#313207c
+  }
+  100%{
+    background:#91bbff
+  }
+}
+h1{
+  font-family:arial;
+  margin-top:20px;
+  color:#ffffff;
+  font-size:50px;
+  text-align:center;
+  text-transform:uppercase;
+}
+</style>
