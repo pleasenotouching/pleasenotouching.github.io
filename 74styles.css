@@ -6,9 +6,9 @@
 }
 
 #contentcol {
-	float: right;
+	float: left;
 	width: 500px;
-	padding:10px;
+	padding: 300px;
 }
 
 img.full{
