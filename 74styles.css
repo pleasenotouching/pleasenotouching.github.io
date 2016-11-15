@@ -2,13 +2,14 @@
 	float: left;
 	width: 280px;
 	height: 700px;
-	padding:10px;
+	padding: 10px;
 }
 
 #contentcol {
 	float: left;
 	width: 500px;
-	padding: 300px;
+	margin-left: 300px;
+	padding: 10px;
 }
 
 img.full{
