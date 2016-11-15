@@ -32,13 +32,7 @@ a:active{
 }
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
     background-color: #e20093;
-    height:75%;
-    position:fixed;
-    overflow:auto;
 }
 li a {
     display: block;
