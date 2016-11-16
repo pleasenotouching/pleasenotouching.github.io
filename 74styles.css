@@ -8,7 +8,7 @@ img.fifty{
 p{
   font-family:'Roboto Condensed', sans-serif;
   font-size:12px;
-  color:white;
+  color:black;
 }
 /*unvisited link*/
 a:link{
@@ -32,7 +32,7 @@ a:active{
 }
 ul {
     list-style-type: none;
-    background-color: #e20093;
+    background-color: #c0ccd1;
 }
 li a {
     display: block;
@@ -48,11 +48,11 @@ li a:hover {
 body{
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 12px;
-  color:#ffffff;
+  color:#000000;
   text-align:justify;
   margin-left:10px;
   margin-right:10px;
-  background:#91bbff;
+  background:#e8f0ff;
   -webkit-animation:colour 10s linear infinite;
   -moz-animation:colour 10s linear infinite;
 }
