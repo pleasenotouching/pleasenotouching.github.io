@@ -58,23 +58,23 @@ body{
 }
 @-webkit-keyframes colour{
   0%{
-    background:#91bbff
+    background:#e8f0ff
   }
 
   25%{
-    background:#ff91e9
+    background:#fff7fd
   }
 
   50%{
-    background:#b291ff
+    background:#fdffe0
   }
   
   75%{
-    background:#313207c
+    background:#fcfcfc
   }
   
   100%{
-    background:#91bbff
+    background:#e8f0ff
   }
 }
 @-moz-keyframes colour{
@@ -83,18 +83,18 @@ body{
   }
 
   25%{
-    background:#ff91e9
+    background:#fff7fd
   }
 
   50%{
-    background:#b291ff
+    background:#fdffe0
   }
 
   75%{
-    background:#313207c
+    background:#fcfcfc
   }
   100%{
-    background:#91bbff
+    background:#e8f0ff
   }
 }
 h1{
