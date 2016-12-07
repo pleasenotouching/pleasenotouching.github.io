@@ -15,6 +15,6 @@ img.centered {
     margin-right: auto
 }
 
-img.bottommargin {
-      padding-bottom: 400px;
+bottommargin {
+      height: 400px;
 }
